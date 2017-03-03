@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript" src="javascript/dataplayers.js">
+  </script>
+  <title>Search</title>
+</head>
+<body>
+  <div id="wrapper">
+  <header>
+  <nav>
+
+    <ul>
+
+      <li style="padding-left:0px"><a href="index.html">home</a></li>
+      <li><a href="volleyballplay.html">volleyball</a></li>
+      <li><a href="form.html">quiz</a></li>
+      <li id="last"><a href="gallery.html">gallery</a></li>
+      <li class="media">
+        <a style="padding:0px;" href="http://google.com">
+          <img style="padding:0px;" src="images/fb.png" alt="facebook">
+        </a>
+      </li>
+      <li class="media">
+        <a style="padding:0px;" href="http://google.com">
+          <img style="padding:0px;" src="images/rss.png" alt="rss">
+        </a>
+      </li>
+      <li class="media">
+        <a style="padding:0px;" href="http://google.com">
+          <img style="padding:0px;" src="images/twitter.png" alt="twitter">
+        </a>
+      </li>
+      <li class="media">
+        <a style="padding:0px;" href="http://google.com">
+          <img style="padding:0px;" src="images/googleplus.png" alt="googleplus">
+        </a>
+      </li>
+      <li class="media">
+        <a style="padding:0px;" href="http://google.com">
+          <img style="padding:0px;" src="images/tumblr.png" alt="tumblr">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+<div id='container' style='position:relative;border:none;background:#cedbd9;'>
+<div class="formcont">
+<div class="header">
+  <h2>Players'Database</h2>
+</div>
+<div class="content">
+  <form name="searchplayer">
+    <div id="boxes">
+    Country<input id="firstbox" type="text" name="country" placeholder="E.g RUS"><!--HTML 5's placeholder attribute. Only the newest browsers support-->
+    Player's First Name<input id="secondbox" type="text"  name="player" placeholder="E.g Yulia">
+    <input type="button" value="Search" onClick="clearform()"><br>
+  </div>
+  <p id="filter">Filter</p>
+    Men<input id="men" type="checkbox" name="filter" value="Men">
+    Women<input id="women" type="checkbox" name="filter" value="Women">
+  </form>
+  <p id="notfound"></p>
+  <table id="tablee">
+    <tr>
+      <th>Country</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Gender</th>
+      <th>Age</th>
+    </tr>
+  </table>
+</div>
+</div>
+</div>
+
+  <footer>
+
+          <p style="text-align:center;font-size:16px;">  2016 Student:781055.All Rights Reserved</p>
+
+  </footer>
+</div>
+</body>
+</html>

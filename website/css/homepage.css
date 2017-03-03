@@ -1,0 +1,96 @@
+
+#section{
+  padding-bottom:20px;
+  text-align:center;
+  border-bottom:2px solid black;
+  height:auto;
+}
+
+
+#section figure{
+  position:relative;
+  margin:0px;
+}
+figure figcaption{
+  background:rgba(0,0,0,0.5);
+  position:absolute;
+  right:0;
+  left:0;
+  color:green;
+  bottom:4px;
+  padding:12px;
+
+}
+#section img{
+
+
+
+  height: 300px;
+  background-repeat: no-repeat;
+  width:100%;
+  padding-bottom:0px;
+
+
+
+
+
+
+}
+
+#text1,#text2{
+font-family:sans-serif;
+padding-bottom:20px;
+text-transform: uppercase;}
+
+#text1{color:black;}
+#text2{color:#FB7B55;}
+
+#group{
+  width:100%;
+  position:relative;
+  height:500px;
+
+}
+
+ .support{
+
+  padding:10px;
+  width:29%;
+  background-color:#08262d;
+  float:left;
+  margin-right:34.149px;
+
+
+}
+
+.support:nth-child(3){
+  padding:10px;
+  width:29%;
+  background-color:#08262d;
+  float:left;
+  margin-right:0px;
+}
+
+.supportimg{
+  position:relative;
+  margin:0;
+}
+.supportimg span,.supportimglast span{
+  position:absolute;
+  color:white;
+  left:0px;
+  right:0px;
+  bottom:3px;
+  background: rgba(0,0,0,0.5);
+  padding:10px;
+  text-align:center;}
+
+
+#group .support img,.supportlast img{
+  height:250px;
+  max-width:100%;}
+
+#group .support p ,.supportlast p{color:white;}
+
+
+p,h3{color:black;}

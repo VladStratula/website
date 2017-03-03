@@ -1,0 +1,29 @@
+table{
+
+  width:100%;
+  border-collapse:collapse;
+  background-color:white;
+  border-radius:5px;
+  margin:0px;
+
+}
+th{background-color:#50d07d;
+color:black;
+}
+th,td{
+  text-align:center;
+}
+tr:nth-child(odd){background-color:#b9c5c3;}
+
+
+#table h3{
+  padding:0;
+  margin:0px;
+  background-color:#b9c5c3;
+  border-radius:5px 5px 0px 0px;
+  padding-left:20px;
+}
+#table{
+  border:1px solid #909997;
+  border-radius:5px;
+}

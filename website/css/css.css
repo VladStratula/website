@@ -1,0 +1,163 @@
+body{
+background-image: url("INTWPwebsite/images/background.jpg");
+margin:20px 10px;
+
+}
+#wrapper{
+  width:1050px;
+  margin:20px auto;
+  padding:0px;
+}
+
+header{
+  width:100%;
+  position:relative;
+  margin-top:70px;
+  padding:0px;
+
+
+}
+
+nav{
+  width:100%;
+  background-color:#50d07d;
+}
+nav ul {
+  max-width:100%;
+  padding:0px;
+  left:0;
+  margin:0px;
+
+}
+nav ul li,nav ul li#last{
+  display:inline-block;
+  padding:0px;
+}
+
+
+
+
+nav ul li a,nav ul li#last a{
+
+
+  text-decoration:none;
+  padding:20px;
+  text-transform:uppercase;
+  font-family:sans-serif;
+  text-align:left;
+  display:block;
+  color:black;
+
+
+}
+nav ul li a:hover,nav ul li#last a:hover{background-color:grey;
+  color:white;
+;}
+.media{
+  display:inline-block;
+  float:right;
+  padding-top:20px;
+}
+
+
+#container{
+max-width:100%;
+margin:20px auto;
+padding: 30px 10px 30px 10px;
+background-color:#cedbd9;
+}
+#section{
+  padding-bottom:20px;
+  text-align:center;
+  border-bottom:2px solid black;
+  height:auto;
+}
+
+
+#section figure{
+  position:relative;
+  margin:0px;
+}
+figure figcaption{
+  background:rgba(0,0,0,0.5);
+  position:absolute;
+  right:0;
+  left:0;
+  color:green;
+  bottom:4px;
+  padding:12px;
+
+}
+#section img{
+
+
+
+  height: 300px;
+  background-repeat: no-repeat;
+  width:100%;
+  padding-bottom:0px;
+
+
+
+
+
+
+}
+
+#text1,#text2{
+font-family:sans-serif;
+padding-bottom:20px;
+text-transform: uppercase;}
+
+#text1{color:black;}
+#text2{color:#FB7B55;}
+
+#group{
+  width:100%;
+  position:relative;
+  height:500px;
+
+}
+
+ .support{
+
+  padding:10px;
+  width:29%;
+  background-color:#08262d;
+  float:left;
+  margin-right:34.149px;
+
+
+}
+
+.support:nth-child(3){
+  padding:10px;
+  width:29%;
+  background-color:#08262d;
+  float:left;
+  margin-right:0px;
+}
+
+.supportimg{
+  position:relative;
+  margin:0;
+}
+.supportimg span,.supportimglast span{
+  position:absolute;
+  color:white;
+  left:0px;
+  right:0px;
+  bottom:3px;
+  background: rgba(0,0,0,0.5);
+  padding:10px;
+  text-align:center;}
+
+
+#group .support img,.supportlast img{
+  height:250px;
+  max-width:100%;}
+
+#group .support p ,.supportlast p{color:white;}
+
+
+p,h3{color:black;}

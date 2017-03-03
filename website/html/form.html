@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+  <title>form</title>
+  <link rel="stylesheet" type="text/css" href="../css/form.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+</head>
+<body>
+  <div id="wrapper">
+
+    <header>
+      <nav>
+
+        <ul>
+
+          <li style="padding-left:0px"><a href="../index.html">home</a></li>
+          <li><a href="volleyballplay.html">volleyball</a></li>
+          <li><a href="form.html">quiz</a></li>
+          <li id="last"><a href="gallery.html">gallery</a></li>
+          <li class="media">
+            <a style="padding:0px;" href="http://google.com">
+              <img style="padding:0px;" src="../images/fb.png" alt="facebook">
+            </a>
+          </li>
+          <li class="media">
+            <a style="padding:0px;" href="http://google.com">
+              <img style="padding:0px;" src="../images/rss.png" alt="rss">
+            </a>
+          </li>
+          <li class="media">
+            <a style="padding:0px;" href="http://google.com">
+              <img style="padding:0px;" src="../images/twitter.png" alt="twitter">
+            </a>
+          </li>
+          <li class="media">
+            <a style="padding:0px;" href="http://google.com">
+              <img style="padding:0px;" src="../images/googleplus.png" alt="googleplus">
+            </a>
+          </li>
+          <li class="media">
+            <a style="padding:0px;" href="http://google.com">
+              <img style="padding:0px;" src="../images/tumblr.png" alt="tumblr">
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div id='container' style='position:relative;border:none;background:#b2cecf;'>
+  <form name="questionnaire" autocomplete="off"><!--in Firefox when the page is refreshed, the boxes are not still selected-->
+    <div class="onequestionplusanswer">
+        <div class="questionsupport">
+          <p id="firstquestion"></p>
+        </div>
+        <div class="answersupport">
+          <ul class="firstsetanswers" style="margin:0px;
+          padding:0px;
+          list-style: none;">
+
+            <li>
+              <input type="radio"  name="answerfirstquestion" value=""><label class="label1"></label>
+              <p class="youranswer" style="color:green;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answerfirstquestion" value="" ><label class="label1"></label>
+              <p class="youranswer" style="color:red;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answerfirstquestion" value=""><label class="label1"></label>
+              <p class="youranswer" style="color:red;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answerfirstquestion" value=""><label class="label1"></label>
+              <p class="youranswer" style="color:red;"></p>
+            </li>
+
+          </ul>
+        </div>
+        <div class="answersupport">
+            <p id="feedback1"></p>
+        </div>
+    </div>
+
+
+    <div class="onequestionplusanswer">
+        <div class="questionsupport">
+            <p id="secondquestion"></p>
+        </div>
+        <div class="answersupport">
+          <ul class="secondsetanswers" style="margin:0px;
+          padding:0px;
+          list-style: none;">
+
+            <li>
+              <input type="radio"  name="answersecondquestion" value=""><label class="label2"></label>
+              <p class="youranswer2" style="color:green;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answersecondquestion" value="" ><label class="label2"></label>
+              <p class="youranswer2" style="color:red;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answersecondquestion" value=""><label class="label2"></label>
+              <p class="youranswer2" style="color:red;"></p>
+            </li>
+            <li>
+              <input type="radio" name="answersecondquestion" value=""><label class="label2"></label>
+              <p class="youranswer2" style="color:red;"></p>
+            </li>
+
+          </ul>
+        </div>
+        <div class="answersupport">
+            <p id="feedback2"></p>
+        </div>
+    </div>
+
+    <div class="onequestionplusanswer">
+        <div class="questionsupport">
+            <p id="thirdquestion"></p>
+        </div>
+        <div class="answersupport">
+          <ul class="thirdsetanswers" style="margin:0px;
+          padding:0px;
+          list-style: none;">
+
+            <li>
+              <input type="radio"  name="answerthirdquestion" value=""><label class="label3"></label>
+                  <p class="youranswer3" style="color:green;"></p>
+
+            </li>
+          <li>
+              <input type="radio" name="answerthirdquestion" value="" ><label class="label3"></label>
+              <p class="youranswer3" style="color:red;"></p>
+
+            </li>
+            <li>
+              <input type="radio" name="answerthirdquestion" value=""><label class="label3"></label>
+              <p class="youranswer3" style="color:red;"></p>
+
+            </li>
+            <li>
+              <input type="radio" name="answerthirdquestion" value=""><label class="label3"></label>
+              <p class="youranswer3" style="color:red;"></p>
+
+            </li>
+
+          </ul>
+
+
+        </div>
+        <div class="answersupport">
+            <p id="feedback3"></p>
+        </div>
+    </div>
+
+        <input class="next" name="NEXT" type="button" value="SUBMIT" onClick="check()">
+        <input class="next" name="RESET" type="button" value="RESET" onClick="anothergo()">
+
+    <p id="demo" style="color:black;"></p>
+  </form>
+</div>
+<footer >
+
+              <p style="text-align:center;font-size:16px;">  2016 Student:781055.All Rights Reserved</p>
+
+</footer>
+</div>
+
+</body>
+<head>
+<script type="text/javascript" src="../javascript/form.js"></script><!-- the script is placed at the bottom because the HTML tags should exist before the script is loaded-->
+</head>
+</html>
